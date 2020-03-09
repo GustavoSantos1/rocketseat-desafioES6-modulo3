@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 class Github {
     static async getRepositories(repo) {
         try {
